@@ -32,7 +32,7 @@ public class Applicationnavigation {
 		values.selectByVisibleText("Consultant");
 		driver.findElement(By.cssSelector("input[type='checkbox']")).click();
 		driver.findElement(By.id("signInBtn")).click();
-		driver.findElement(By.cssSelector("a[class='nav-link btn btn-primary']")).click();
+		
 			
 		
 		
